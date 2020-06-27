@@ -550,7 +550,6 @@ body {
     display: flex;
     left: 0;
     transition: left 0.4s;
-    overflow: hidden;
   }
 
   .navigation {
@@ -571,18 +570,19 @@ body {
   }
 
   .m-arrow:first-child {
-    transform: rotate(-45deg) translate(-2px, 1px);
-    width: 60%;
+    transform: translate(8px, 2px) rotate(35deg);
+    width: 70%;
+    right: 0;
     transition: transform 0.7s, width 0.7s;
   }
 
   .m-arrow:last-child {
-    transform: rotate(45deg) translate(-2px, -1px);
-    width: 60%;
+    transform: translate(8px, -2px) rotate(-35deg);
+    width: 70%;
     transition: transform 0.7s, width 0.7s;
   }
   .m-arrow-button {
-    transform: rotate(90deg);
+    transform: rotate(0deg);
     transition: transform 0.7s;
   }
 
