@@ -163,12 +163,12 @@ body {
 .menu-line:first-child {
   transform: rotate(0deg) translate(0px, 0px);
   width: 100%;
-  transition: transform 0.7s, width 0.3s;
+  transition: transform 0.2s, width 0.3s;
 }
 .menu-line:last-child {
   transform: rotate(0deg) translate(0px, 0px);
   width: 100%;
-  transition: transform 0.7s, width 0.3s;
+  transition: transform 0.2s, width 0.3s;
 }
 
 .search-button {
@@ -568,9 +568,6 @@ body {
   .button-group {
     height: auto;
     flex-direction: column;
-  }
-
-  .m-arrow {
   }
 
   .m-arrow:first-child {
