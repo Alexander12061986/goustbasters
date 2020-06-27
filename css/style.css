@@ -542,14 +542,14 @@ body {
     bottom: 0;
     height: calc(100% - 68px);
     background-color: #5671f6;
-    transition: left 0.9s;
+    transition: left 0.4s;
     overflow: hidden;
   }
 
   .m-menu.active {
     display: flex;
     left: 0;
-    transition: left 0.9s;
+    transition: left 0.4s;
     overflow: hidden;
   }
 
