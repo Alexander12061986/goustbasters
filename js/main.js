@@ -1,9 +1,12 @@
 $(document).ready(function () {
   const mMenuBtn = $(".m-menu-button");
   const mMenu = $(".m-menu");
+  const mLine = $(".menu-line");
   const tab = $(".tab");
   mMenuBtn.on("click", function () {
     mMenu.toggleClass("active");
+    mMenuBtn.toggleClass("m-arrow-button");
+    mLine.toggleClass("m-arrow");
     $("body").toggleClass("no-scroll");
   });
 
